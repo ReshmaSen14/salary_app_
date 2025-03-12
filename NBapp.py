@@ -13,7 +13,6 @@ import numpy as np
 model = joblib.load("C:/Users/DELL/naivebayes_model.pkl")
 label_encoders = joblib.load("C:/Users/DELL/label_encoder.pkl")
 
-
 # Define the input fields
 st.title("Salary Prediction App")
 st.markdown("### Enter details to predict if salary is >50K or <=50K")
