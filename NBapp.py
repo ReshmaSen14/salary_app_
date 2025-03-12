@@ -10,8 +10,8 @@ import numpy as np
 # Load the trained model and label encoders
 
 # Load the trained model and label encoders
-model = joblib.load("C:/Users/DELL/naivebayes_model.pkl")
-label_encoders = joblib.load("C:/Users/DELL/label_encoder.pkl")
+model = joblib.load("naivebayes_model.pkl")
+label_encoders = joblib.load("label_encoder.pkl")
 
 # Define the input fields
 st.title("Salary Prediction App")
